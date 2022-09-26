@@ -1,0 +1,8 @@
+2022-09-26-reading-docs.md.
+
+Able to get back to the CSV file writer project tonight...was looking at the code and decided to look into the BufferedWriter class.
+realized how important it is to know the tools you're working with. Otherwise you're just working by memorization and stabs in the dark. 
+I'd like to have a deeper understanding. By reading the documentation, I suppose you can come to an understanding of what the tools are, 
+why they exist, and how they're used - instead of just grabbing them and shoving them into your project. 
+
+nathan
