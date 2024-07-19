@@ -1,1 +1,82 @@
+# Site settings
+title: My Blog
+description: >- # this means to ignore newlines until "baseurl:"
+  This is where I keep track of my learning process. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://whitleynl.github.io/Blog/" # the base hostname & protocol for your site
+
+# Author settings
+author: 
+  name: Nathan Whitley
+  email: nlwhit81@gmail.com
+  
+# Build settings
+markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Your Name
+
+# Social media links
+social_links:
+  github: https://github.com/Whitleynl
+  linkedin: https://www.linkedin.com/in/whitleynl/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Exclude files or directories from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include additional files or directories in the build
+include:
+  - _pages
+
+# Configuration for plugins
+jekyll_feed:
+  path: atom.xml
+
+jekyll_seo_tag:
+  title: "My Blog"
+  description: "This is where I keep track of my learning process."
+  author:
+    name: "Nathan Whitley"
+
+# Markdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Minima theme settings (optional)
+minima:
+  social_links:
+    github: whitleynl
+    linkedin: whitleynl
