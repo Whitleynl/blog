@@ -58,12 +58,6 @@ include:
 jekyll_feed:
   path: atom.xml
 
-jekyll_seo_tag:
-  title: "My Blog"
-  description: "This is where I keep track of my learning process."
-  author:
-    name: "Nathan Whitley"
-
 # Markdown settings
 kramdown:
   input: GFM
