@@ -6,9 +6,9 @@ baseurl: "/Blog" # the subpath of your site, e.g. /blog
 url: "https://whitleynl.github.io" # the base hostname & protocol for your site
 
 # Author settings
-#author: 
-  #name: Nathan Whitley
-  #email: nlwhit81@gmail.com
+author: 
+  name: Nathan Whitley
+  email: nlwhit81@gmail.com
   
 # Build settings
 markdown: kramdown
