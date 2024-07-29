@@ -1,29 +1,22 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-07-25 09:59:24 -0400
-categories: jekyll update
+title:  "First Steps"
+date:   2024-07-29 00:00:24 -0400 
+categories: update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Idea: a way to log song ideas and progress on them. A centralized place to keep track of my progress. 
+A song journal that can be updated with notes, audio recordings, and videos. 
+Anything that supports, motivates, and inspires me to keep going.
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Initial User Stories:
+- As a user, I want to log my music project progress, so I can easily track and share my ideas.
+- As a user, I want to upload audio recordings, so I can remember ideas.
+- As a user, I want to upload videos, so I can keep track of my progress.
+- As a user, I want to add notes, so I can keep track of my progress.
+- As a user, I want to share my progress, so I can get feedback from others.
+- As a user, I want to search for songs, so I can find inspiration.
+- As a user, I want to filter songs by mood, so I can find inspiration.
+- As a user, I want to filter songs by tempo, so I can find inspiration.
+- As a user, I want to filter songs by key, so I can find inspiration.
+- As a user, I want to filter songs by instruments, so I can find inspiration.
