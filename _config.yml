@@ -1,71 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-title: Nathan develops.
-description: >- # this means to ignore newlines until "baseurl:"
-  Where I share my learning process. 
-baseurl: "/Blog" # the subpath of your site, e.g. /blog
-url: "https://whitleynl.github.io" # the base hostname & protocol for your site
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Author settings
-author: 
-  name: Nathan Whitley
-  email: nlwhit81@gmail.com
-  
+title: Nathan develops.
+email: nlwhit81@gmail.com
+description: >-
+  Hi! I'm Nathan. I am a software developer, graphic designer, and musician. 
+  This is a place for me to share my process of learning, designing, and creating.
+  Feel free to check out my linked social media accounts and reach out to me.
+baseurl: "/Blog" # the subpath of your site, e.g. /blog
+url: "https://whitleynl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: whitleynl
+
 # Build settings
-markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-remote-theme 
 
-# Permalinks
-permalink: /:year/:month/:day/:title/
-
-# Collections
-collections:
-  posts:
-    output: true
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      author: Nathan Whitley
-
-# Social media links
-social_links:
-  github: https://github.com/Whitleynl
-  linkedin: https://www.linkedin.com/in/whitleynl/
-
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
-
-# Exclude files or directories from the build
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-# Include additional files or directories in the build
-include:
-  - _pages
-
-# Configuration for plugins
-jekyll_feed:
-  path: atom.xml
-
-# Markdown settings
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
