@@ -1,22 +1,18 @@
 ---
 layout: post
 title:  "First Steps"
-date:   2024-07-29 00:00:24 -0400 
+date:   2024-09-10 00:00:24 -0400
 categories: update
 ---
 
-Idea: a way to log song ideas and progress on them. A centralized place to keep track of my progress. 
-A song journal that can be updated with notes, audio recordings, and videos. 
-Anything that supports, motivates, and inspires me to keep going.
+Idea: A way to log and analyze dreams in a centralized place. A dream journal that helps me track patterns, analyze moods, and categorize my dreams. Anything that supports me in understanding my subconscious thoughts and discovering recurring themes.
 
 Initial User Stories:
-- As a user, I want to log my music project progress, so I can easily track and share my ideas.
-- As a user, I want to upload audio recordings, so I can remember ideas.
-- As a user, I want to upload videos, so I can keep track of my progress.
-- As a user, I want to add notes, so I can keep track of my progress.
-- As a user, I want to share my progress, so I can get feedback from others.
-- As a user, I want to search for songs, so I can find inspiration.
-- As a user, I want to filter songs by mood, so I can find inspiration.
-- As a user, I want to filter songs by tempo, so I can find inspiration.
-- As a user, I want to filter songs by key, so I can find inspiration.
-- As a user, I want to filter songs by instruments, so I can find inspiration.
+- As a user, I want to log my dreams, so I can keep a record of them over time.
+- As a user, I want to categorize my dreams by type, so I can analyze common patterns.
+- As a user, I want to search through my dream logs, so I can find specific dreams easily.
+- As a user, I want to analyze the text of my dreams, so I can identify common themes or recurring words.
+- As a user, I want to view dream statistics, so I can better understand my emotional and mental patterns.
+- As a user, I want to filter dreams by mood, so I can see trends in how I feel.
+- As a user, I want to filter dreams by date, so I can track how my dreams evolve over time.
+- As a user, I want to share dreams with friends, so I can discuss them.
