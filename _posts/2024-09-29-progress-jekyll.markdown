@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ideating"
+title:  "implemenation"
 date:   2024-09-29 00:00:24 -0400
 categories: update
 ---
